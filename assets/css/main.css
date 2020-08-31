@@ -92,7 +92,7 @@ body {
 /* Type */
 body, input, select, textarea {
   color: #7f888f;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans";
   font-size: 13pt;
   font-weight: 400;
   line-height: 1.65; }
@@ -132,7 +132,7 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
   color: #3d4449;
-  font-family: "Roboto Slab", serif;
+  font-family: "Roboto Slab";
   font-weight: 700;
   line-height: 1.5;
   margin: 0 0 1em 0; }
@@ -217,7 +217,8 @@ hr {
   border-bottom: solid 1px rgba(210, 215, 217, 0.75);
   margin: 2em 0; }
   hr.major {
-    margin: 3em 0; }
+    margin: 3em 0;
+  display: none; }
 
 .align-left {
   text-align: left; }
@@ -2088,12 +2089,19 @@ button,
     border-bottom: 0;
     color: inherit;
     font-family: "Roboto Slab", serif;
-    font-size: 1.125em; }
+    font-size: 1.125em; 
+    }
+    #header .logo  img {
+    position: relative;
+    margin-left:45%;
+  }
+
   #header .icons {
     text-align: right; }
   @media screen and (max-width: 1680px) {
     #header {
-      padding-top: 5em; } }
+      padding-top: 5em; }
+     }
   @media screen and (max-width: 736px) {
     #header {
       padding-top: 6.5em; }
@@ -2199,7 +2207,7 @@ button,
   -ms-user-select: none;
   user-select: none;
   color: #3d4449;
-  font-family: "Roboto Slab", serif;
+  font-family: "Open+Sans";
   font-weight: 400;
   letter-spacing: 0.075em;
   list-style: none;
@@ -2211,7 +2219,7 @@ button,
     color: inherit;
     cursor: pointer;
     display: block;
-    font-size: 0.9em;
+    font-size: 1.2em;
     padding: 0.625em 0; }
     #menu ul a:hover, #menu ul span:hover {
       color: #f56a6a; }
@@ -2271,3 +2279,4 @@ button,
     border-top: 0;
     margin-top: 0;
     padding-top: 0; }
+
